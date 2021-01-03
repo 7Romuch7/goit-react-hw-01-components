@@ -1,0 +1,38 @@
+.transactionHistory { 
+    width: 100%;
+    border: 1px solid rgb(14, 10, 10);
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 5px 1px rgba(140, 150, 151, 0.5);
+}
+
+th {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #74baf0;
+    padding: 15px 0 15px 0;
+    border: 1px solid rgb(233, 253, 253);
+   }
+
+td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(141, 141, 141);
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px 0 15px 0;
+    border: 1px solid  rgb(210, 211, 211);
+   }
+
+tr {
+    background: rgb(242, 242, 250);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(218, 221, 221);
+}

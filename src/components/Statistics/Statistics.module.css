@@ -1,0 +1,25 @@
+.statistics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.containerStat {
+    display: flex;
+    max-width: 410px;
+    border: 2px solid rgb(24, 22, 22);
+}
+
+.statList {
+    margin: 0;
+    padding: 15px 10px 15px 10px;
+}
+
+.statList + .statList {
+    border-left: 2px solid rgb(24, 22, 22);
+}
