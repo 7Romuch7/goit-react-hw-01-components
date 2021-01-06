@@ -3,7 +3,7 @@ import cardUsers from './components/Profile/user.json';
 import SectionStatic from './components/Statistics/Statistics';
 import statisticalData from './components/Statistics/statistical.json';
 import ListFriends from './components/FriendList/FriendList';
-import friends from './components/FriendList/friends.json';
+import friends from './components/FriendListItem/friends.json';
 import ListTransactions from './components/TransactionHistory/TransactionHistory';
 import transactions from './components/TransactionHistory/transactions.json';
 
@@ -17,6 +17,7 @@ export default function App() {
             statsUser={cardUsers.stats}
         />
         <SectionStatic title="Upload stats" stats={statisticalData} />
+        <SectionStatic stats={statisticalData} />;
         <ListFriends friends={friends} />
         <ListTransactions items={transactions} />
     </div>
